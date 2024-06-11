@@ -2,7 +2,7 @@ import React from 'react';
 
 const ResumeScan = () => {
   return (
-    <div className="p-4">
+    <div className="bg-gray-400 p-4">
       <div className="bg-white p-4 shadow rounded mb-4">
         <div className="text-center">
           <div className="text-2xl font-bold">40%</div>
@@ -18,7 +18,7 @@ const ResumeScan = () => {
             <button className="py-2 px-4 bg-gray-200 rounded">Personal Details</button>
           </div>
         </div>
-        <div className="mb-4">
+        <div className="mb-4 w-[786px]">
           <div className="bg-red-100 p-4 rounded mb-2">
             <div className="font-bold text-red-600">Bullets</div>
             <div>We could not detect any Bullets. Use standard bullets to explain different sections of your resume. In case you have used the bullets, it's not readable by ATS</div>
